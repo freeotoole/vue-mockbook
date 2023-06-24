@@ -1,0 +1,53 @@
+{
+  "name": "@onthetools/vue-mockbook",
+  "version": "1.0.0",
+  "description": "Vue 3 wrapper for CSS only mockup of a macbook for displaying screenshots",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/vue-mockbook.umd.cjs",
+  "module": "./dist/vue-mockbook.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-mockbook.js",
+      "require": "./dist/vue-mockbook.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/freeotoole/vue-mockbook.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vue 3",
+    "CSS",
+    "Macbook Mockup",
+    "Portfolio"
+  ],
+  "author": "Free O'Toole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeotoole/vue-mockbook/issues"
+  },
+  "homepage": "https://github.com/freeotoole/vue-mockbook#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
