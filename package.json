@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Vue 3 wrapper for CSS only mockup of a macbook for displaying screenshots",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/vue-mockbook.umd.cjs",
   "module": "./dist/vue-mockbook.js",
   "types": "./dist/main.d.ts",
