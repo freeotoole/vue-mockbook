@@ -13,7 +13,7 @@ npm i @onthetools/vue-mockbook
 Import the package and styles to use in your Vue 3 project:
 
 ```js
-import { VueMockbook } from 'vue-mockbook'
+import { VueMockbook } from '@onthetools/vue-mockbook'
 import '@onthetools/vue-mockbook/dist/style.css'
 ```
 
