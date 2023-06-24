@@ -7,7 +7,7 @@ Vue 3 wrapper for CSS only mockup of a macbook for displaying screenshots on you
 Install via NPM:
 
 ```sh
-npm i @freeotoole/vue-mockbook
+npm i @onthetools/vue-mockbook
 ```
 
 Import the package and styles to use in your Vue 3 project:
