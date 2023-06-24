@@ -23,4 +23,4 @@ Then to use the component pass a required screenshot prop and optional url to di
 <VueMockbook screen-shot="path-to/screenshot.png" url="optionalurl.com" />
 ```
 
-![alt text](/dist/mockbook.png)
+![scrrenshot of the mockup in action](https://raw.githubusercontent.com/freeotoole/vue-mockbook/main/public/mockbook.png)
