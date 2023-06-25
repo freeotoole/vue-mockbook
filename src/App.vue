@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import VueMockbook from '../lib/VueMockbook.vue'
+import src from './assets/screenshot-freeotoole.png'
 </script>
 
 <template>
@@ -18,13 +19,31 @@ import VueMockbook from '../lib/VueMockbook.vue'
       there probably wasn't much to it, so got to using all the css gradients to
       recreate the macbook.
     </p>
-    <VueMockbook screen-shot="screenshot-freeotoole.png" url="freeotoole.com" />
+    <VueMockbook :screen-shot="src" url="freeotoole.com" />
     <p>
       I've used this a few times since, and it's been a fun little project to
       work on. I've added a few more features since then, like the the url bar,
       complete with dark mode toggle as well as making in accessible to keyboard
       users.
     </p>
+    <h2>How to use</h2>
+    <p>Install via NPM.</p>
+    <p><code>npm i @onthetools/vue-mockbook</code></p>
+    <p>Import the package and styles to use in your Vue 3 project.</p>
+    <pre>
+      <code>
+        import { VueMockbook } from '@onthetools/vue-mockbook' 
+        import '@onthetools/vue-mockbook/dist/style.css'
+      </code>
+    </pre>
+    <p>
+      Then to use the component pass a required <code>screenshot</code> prop and
+      optional <code>url</code> prop to display in the address bar.
+    </p>
+
+    <pre><code>
+      &#x3C;VueMockbook screen-shot="path-to/screenshot.png" url="optionalurl.com" /&#x3E;
+    </code></pre>
   </div>
 </template>
 
