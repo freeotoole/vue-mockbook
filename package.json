@@ -1,6 +1,6 @@
 {
   "name": "@onthetools/vue-mockbook",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vue 3 wrapper for CSS only mockup of a macbook for displaying screenshots",
   "type": "module",
   "files": [
